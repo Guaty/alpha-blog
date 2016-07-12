@@ -38,4 +38,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # Getting rid of console rendering errors in the server logs
+  config.web_console.whiny_requests = false
 end
