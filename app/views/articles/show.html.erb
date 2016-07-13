@@ -10,7 +10,7 @@
             <%= link_to @article.user.username, user_path(@article.user) %>
           </li>
           <li><small>
-            <%= pluralize(@article.user.articles.count, "article") if @article.user.articles %>
+            <%= pluralize(@article.user.articles.count, "article") %>
           </small></li>
         </div>
       </div>
